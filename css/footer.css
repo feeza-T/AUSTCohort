@@ -1,0 +1,92 @@
+.footer {
+    background-color: #1a1a1a; 
+    padding: 50px;
+}
+
+.first-footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-des {
+    margin-left: -200px;
+    max-width: 400px;
+}
+
+.nav-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-des p {
+    color: #857d7d;
+    line-height: 1.8rem;
+}
+
+.get-started {
+    display: flex;
+    gap: 50px;
+}
+
+.get-started h3 {
+    font-size:30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.footer-list li {
+    margin-bottom: 20px;
+}
+
+.footer-list li a {
+    color: #aaa8a8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-list li a:hover {
+    color: #00c853; /* Green hover effect */
+}
+
+.footer-line {
+    border-bottom: 1px solid #444; /* Dark grey line */
+    margin: 20px 0;
+}
+
+.text-alignment {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+    text-align: center; /* Center align the icons */
+}
+
+.social-icons a {
+    color: #ccc;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00c853; /* Green hover effect */
+}
+
+.social-icons i {
+    font-size: 24px;
+}
+
