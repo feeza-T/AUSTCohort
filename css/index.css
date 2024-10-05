@@ -203,7 +203,7 @@ nav ul li a:hover {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     max-width: 800px;
     margin: 0 auto;
-    color: #a59393; /* Changed to light gray */
+    color: #a59393;
 }
 .modal {
     display: none; 
@@ -504,6 +504,118 @@ p {
 
     .card-section-description {
         display: none; /* Hide the description part */
+    }
+
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+
+    .banner-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider img {
+        object-fit: contain;
+    }
+
+    .slider-nav {
+        bottom: 0.75rem;
+    }
+}
+@media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        justify-content: space-between;
+        padding: 1rem;
+        flex-direction: row; 
+    }
+
+    .logo {
+        width: 40px;
+        order: 1; 
+    }
+
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+        order: 2; 
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .drawer {
+        position: fixed;
+        top: 0;
+        right: -100%; 
+        width: 80%;
+        height: 100%;
+        background-color: #000000;
+        z-index: 999;
+        transition: right 0.3s ease; 
+    }
+
+    .drawer ul {
+        list-style: none;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .drawer ul li a {
+        font-size: 1.5rem;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .drawer ul li a:hover {
+        color: #00c853;
+        text-decoration: underline;
+    }
+
+    .drawer-toggle {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    .drawer.open {
+        right: 0; 
+    }
+
+    .card-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .card-section-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-text p {
+        display: none;
     }
 
     .banner-text h1 {
