@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: black; /* Change to match the existing theme */
-    color: white; /* Change to match the existing theme */
+    background-color: black; 
+    color: white; 
 }
 
 .container {
@@ -23,8 +23,8 @@ header {
 }
 
 .back-icon {
-    color: white; /* Icon color */
-    font-size: 1.5em; /* Icon size */
+    color: white; 
+    font-size: 1.5em; 
     text-decoration: none;
 }
 
@@ -34,8 +34,7 @@ header h1 {
 
 .signout {
     padding: 10px 20px;
-    background-color: #f04e3e; /* Change to match the theme */
-    border: none;
+    background-color: #f04e3e; 
     color: white;
     font-size: 1em;
     cursor: pointer;
@@ -81,13 +80,13 @@ header h1 {
     padding: 10px;
     margin-bottom: 10px;
     cursor: pointer;
-    background-color: #1e1e1e; /* Sidebar background color */
-    color: #fff; /* Sidebar text color */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #1e1e1e;
+    color: #fff; 
+    border-radius: 5px; 
 }
 
 .sidebar li.active {
-    background-color: #00c853; /* Active tab color */
+    background-color: #00c853; 
     font-weight: bold;
 }
 

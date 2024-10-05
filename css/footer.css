@@ -54,11 +54,11 @@
 }
 
 .footer-list li a:hover {
-    color: #00c853; /* Green hover effect */
+    color: #00c853;
 }
 
 .footer-line {
-    border-bottom: 1px solid #444; /* Dark grey line */
+    border-bottom: 1px solid #444; 
     margin: 20px 0;
 }
 
@@ -71,7 +71,7 @@
 
 .social-media {
     margin-top: 20px;
-    text-align: center; /* Center align the icons */
+    text-align: center; 
 }
 
 .social-icons a {
@@ -83,7 +83,7 @@
 }
 
 .social-icons a:hover {
-    color: #00c853; /* Green hover effect */
+    color: #00c853; 
 }
 
 .social-icons i {
