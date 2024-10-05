@@ -109,3 +109,33 @@
 .read-more:hover i {
     background-color: #00c853;
 }
+@media (max-width: 576px) {
+    .news-section {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .news-title {
+        font-size: 28px;
+    }
+
+    .news-description {
+        font-size: 14px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .news-cards {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .news-card {
+        max-width: 100%;
+    }
+
+    .news-button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
