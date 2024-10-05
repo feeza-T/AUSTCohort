@@ -1,4 +1,4 @@
-/* Navbar styling */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -96,7 +96,6 @@ body{
     opacity: 1;
 }
 
-/* Text over the slider */
 .banner-text {
     position: absolute;
     top: 50%;
@@ -127,5 +126,5 @@ body{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     max-width: 800px;
     margin: 0 auto;
-    color: #a59393; /* Changed to light gray */
+    color: #a59393; 
 }

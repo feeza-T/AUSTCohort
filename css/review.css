@@ -1,0 +1,130 @@
+
+.client-section {
+    background-color: #1a1a1a; 
+    padding: 3rem;
+    margin-bottom: 24px;
+}
+
+.content-wrapper {
+    display: grid;
+    max-height: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    background: linear-gradient(to right, #333, #837f7f); 
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-section h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.text-section p {
+    color: #a0a0a0;
+    margin-bottom: 1.5rem;
+}
+
+.show-all-btn {
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 33, 33);
+    color: rgb(255, 252, 252);
+    margin-top: 3rem; 
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.show-all-btn i {
+    margin-right: 0.5rem;
+}
+
+.show-all-btn:hover {
+    background-color: #00c853;
+    color: white;
+}
+
+
+.review-card-section {
+    position: relative;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+
+.review-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    position: absolute;
+    transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.review-card .client-img {
+    margin-right: 1rem;
+}
+
+.review-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-content p {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.review-content h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+    color: black;
+}
+
+.review-content small {
+    color: #999;
+}
+
+.top-card {
+    padding-top: 50px;
+    top: -15px; 
+    right: -20px;
+    opacity: 0.5;
+}
+
+.bottom-card {
+    padding-bottom: 50px;
+    bottom: -15px; 
+    right:-10px;
+    opacity: 0.5;
+}
+
+.middle-card {
+    z-index: 10;
+    transform: scale(1.1); 
+}
+
+.middle-card:hover .client-img img {
+    border: 2px solid white;
+}
