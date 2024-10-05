@@ -309,7 +309,30 @@ nav ul li a:hover {
     padding: 2rem;
     background-color: #000000;
     margin-bottom: 2rem;
+    
+}
+.card-section-title {
+   
     border-top: 2px solid #363d3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+    padding-top: 50px;
+}
+
+.card-section-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(214, 199, 199);
+    
+   
 }
 
 .card {
