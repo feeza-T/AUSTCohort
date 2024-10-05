@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - AUSTCohort</title>
+    <link rel="stylesheet" href="css/signup.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="signup-container">
+        <a href="index.html" class="back-button"><i class="fa-solid fa-arrow-left"></i></a> 
+        <h1>Create an Account</h1>
+        <form action="#" method="post">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Education Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <input type="file" accept="image/*" class="photo-upload" required> 
+            <select required>
+                <option value="" disabled selected>-- Select Department --</option>
+                <option value="cse">Computer Science and Engineering</option>
+                <option value="eee">Electrical and Electronic Engineering</option>
+                <option value="me">Mechanical Engineering</option>
+                <option value="ce">Civil Engineering</option>
+                <option value="bba">Business Administration</option>
+                <option value="te">Textile Engineering</option>
+                <option value="arch">Architecture</option>
+            </select>
+            <select required>
+                <option value="" disabled selected>-- Select Semester --</option>
+                <option value="1">1.1</option>
+                <option value="2">1.2</option>
+                <option value="3">2.1</option>
+                <option value="4">2.2</option>
+                <option value="5">3.1</option>
+                <option value="6">3.2</option>
+                <option value="7">4.1</option>
+                <option value="8">4.2</option>
+            </select>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="index.html">Sign In</a></p>
+    </div>
+</body>
+</html>

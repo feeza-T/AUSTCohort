@@ -8,28 +8,49 @@
     <link rel="stylesheet" href="css/review.css">
     <link rel="stylesheet" href="css/clubs.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 <body>
     <header>
         <nav>
-            <div><h2>AUSTCohort</h2></div>
+            <div class="logo-cont">
+                <img src="images/logo.png" class="logo">
+                <h2>AUSTCohort</h2>
+            </div>
             <div>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Clubs</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Clubs<i class="fa fa-caret-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Career Development Club (AUSTCDC)</a></li>
+                            <li><a href="#">Innovation and Design Club (AUSTIDC)</a></li>
+                            <li><a href="#">Sports Club (AUSTSC)</a></li>
+                            <li><a href="#">Debate Club (AUSTDC)</a></li>
+                            <li><a href="#">Cultural Club (AUSTCC)</a></li>
+                            <li><a href="#">Programming and Informatics Club (AUSTPIC)</a></li>
+                            <li><a href="#">Blood Donation Club (AUSTBDC)</a></li>
+                            <li><a href="#">Photography Club (AUSTPC)</a></li>
+                            <li><a href="#">Robotics Club (AUSTRC)</a></li>
+                            <li><a href="#">Environmental and Social Welfare Club (AUSTESWC)</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">About Us</a></li>
                 </ul>
+            </div>
+            <div>
+                <a href="#signin-modal" class="signin-btn">Sign In</a>
             </div>
             <div>
                 <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
     </header>
-    
+
     <main>
+
         <!-- banner slider section starts here -->
+
         <section class="banner-container">
             <div class="slider-wrapper">
                 <div class="slider">
@@ -38,19 +59,21 @@
                     <img id="slider-3" src="images/photo.jpg" alt="">
                     <img id="slider-4" src="images/idc.jpg" alt="">
                 </div>
-              <div class="slider-nav">
-                <a href="#slider-1"></a>
-                <a href="#slider-2"></a>
-                <a href="#slider-3"></a>
-                <a href="#slider-4"></a>
+                <div class="slider-nav">
+                    <a href="#slider-1"></a>
+                    <a href="#slider-2"></a>
+                    <a href="#slider-3"></a>
+                    <a href="#slider-4"></a>
+                </div>
+                <div class="banner-text">
+                    <h1>Welcome to AUSTCohort</h1>
+                    <h3>Discover, Connect, and Grow with AUST's diverse student clubs!</h3>
+                    <p>At AUST, student life is more than just academics. Our clubs are where passions come alive, leadership skills are honed, and friendships are made. Whether you’re into technology, arts, sports, or community service, there’s a club for everyone. Explore all the exciting opportunities we offer and become part of a vibrant community today!</p>
+                </div>
+            </div>
 
-              </div>
-              <div class="banner-text">
-                <h1>Welcome to AUSTCohort</h1>
-                <h3>Discover, Connect, and Grow with AUST's diverse student clubs!</h3>
-                <p>At AUST, student life is more than just academics. Our clubs are where passions come alive, leadership skills are honed, and friendships are made. Whether you’re into technology, arts, sports, or community service, there’s a club for everyone. Explore all the exciting opportunities we offer and become part of a vibrant community today!</p>
             </div>
-            </div>
+
         </section>
         <!-- banner slider section ends here -->
 
@@ -206,10 +229,23 @@
         
         
 
+
+<div id="signin-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="document.getElementById('signin-modal').style.display='none'">&times;</span>
+        <h2>Sign In</h2>
+        <form action="#">
+            <input type="text" placeholder="Education Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign in</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Click here to sign up</a></p>
+    </div>
+</div>
+
     </main>
     <footer>
-
+        <!-- Footer Content -->
     </footer>
-    
 </body>
 </html>
